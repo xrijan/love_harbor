@@ -1,13 +1,35 @@
 body{
+    margin: 0;
     display: flex;
-    position: absolute;
-}
-.container {
-    position: relative;
-    height: 10vh;
-    width: 10vh;
-    background-color: red;
-    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-self: center;
+    flex-direction: column;
 }
+
+
+#yes-button {
+    height: 5vh;
+    width: 10vh;
+    background-color: rgb(19, 171, 19);
+    border-radius: 8px;
+    border: none;
+
+}
+
+#yes-button:hover {
+  background-color: green;
+  transform: fixed 0.3s ease;
+}
+
+#no-button {
+    height: 5vh;
+    min-width: 10vh;
+    background-color: red;
+    border-radius: 8px;
+    border: none;
+}
+
+#no-button:hover {
+    background-color: rgb(169, 8, 8);
+    transform: fixed 0.3s ease;
+  }
